@@ -1,0 +1,39 @@
+.task {
+    width: 100%;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #5d70e0;
+}
+
+.task p {
+    flex: 1;
+    color: #fff;
+}
+
+.task button {
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.task button, .buttonIcon {
+    height: 24px;
+    width: 24px;
+    transition: all .3s;
+}
+
+.buttonIcon {
+    line-height: 1.5;
+    font-size: 20px;
+    color: #3849aa;
+}
+
+.task button:hover{
+    background-color: #3849aa;
+}
+
+.buttonIcon:hover {
+    color: #fff;
+}

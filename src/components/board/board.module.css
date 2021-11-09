@@ -1,0 +1,39 @@
+main {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background: rgb(218, 218, 218);
+}
+
+.board {
+    min-height: 100%;
+    display: flex;
+    margin: 0 80px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    gap: 24px;
+    padding: 16px;
+}
+
+.card, .tasks {
+    width: 100%;
+    padding: 8px;
+    display: inherit;
+    flex-direction: column;
+    gap: 8px;
+    background: #3849aa;
+}
+
+.card {
+    min-height: 320px;
+    height: max-content;
+    min-width: min-content;
+    max-width: 260px;
+    
+    align-items: center;
+    border-radius: 8px;
+}
+
+.card h1 {
+    padding: 8px 0;
+}
