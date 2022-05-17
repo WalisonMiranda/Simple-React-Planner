@@ -1,0 +1,8 @@
+{
+  "short_name": "REACT PLANNER",
+  "name": "React Planner",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
