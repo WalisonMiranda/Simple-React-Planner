@@ -37,7 +37,13 @@ export function ContextProvider({children}) {
     }, [tasks]);
 
     return (
-        <Context.Provider value={{ addTask, tasks, task, setTask, weekDay, setWeekDay, handleDelete }}>
+        <Context.Provider value={{ addTask, 
+                                    tasks, 
+                                    task, setTask, 
+                                    weekDay, 
+                                    setWeekDay, 
+                                    handleDelete }}
+        >
             {children}
         </Context.Provider>
     )
