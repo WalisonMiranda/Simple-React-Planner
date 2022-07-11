@@ -16,6 +16,7 @@
     border: 0;
     cursor: pointer;
     overflow: hidden;
+    margin-left: 16px;
 }
 
 .task button, .buttonIcon {
